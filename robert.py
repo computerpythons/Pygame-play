@@ -2,27 +2,27 @@
 #REG NO: 16/K/2260
 #STUDENT NO:216002413
 #COMPUTER ENGINEERING YEAR 1
-----------------------------
+#----------------------------
 #NAME:NAMULYOWA BERNA
 #REG NO: 16/U/9555/EVE
 #STUDENT NO:216016352
 #COMPUTER ENGINEERING YEAR 1
-----------------------------
+#----------------------------
 #NAME:WEIKAMA TITUS
 #REG NO: 16/U/12387/PS
 #STUDENT NO:216003567
 #COMPUTER ENGINEERING YEAR 1
------------------------------
+#-----------------------------
 #NAME: TAYEBWA LINARD
 #REG NO: 16/U/11855/PS
 #STUDENT NO:216012445
 #COMPUTER ENGINEERING YEAR 1
--------------------------------
+#-------------------------------
 #NAME: 
 #REG NO: 
 #STUDENT NO:216
 #COMPUTER ENGINEERING YEAR 1
-------------------------------
+#------------------------------
 
 # 1 - Import library
 import pygame
