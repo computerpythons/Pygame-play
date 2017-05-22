@@ -74,8 +74,8 @@ while running:
     # 5 - clear the screen before drawing it again
     screen.fill(0)
     # 6 - draw the player on the screen at X:100, Y:100
-    for x in range(width/grass.get_width()+1):
-        for y in range(height/grass.get_height()+1):
+    for x in range(width//grass.get_width()+1):#We need to do an integer division so that we get no errors
+        for y in range(height//grass.get_height()+1):#We need to do the same integer division here too.
             screen.blit(grass,(x*100,y*100))
     screen.blit(castle,(0,30))
     screen.blit(castle,(0,135))
