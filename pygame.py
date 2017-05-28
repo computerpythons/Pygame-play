@@ -204,7 +204,7 @@ while running:
 # 11 - Win/lose display        
 if exitcode==0:
     pygame.font.init()
-    font = pygame.font.Font(None, 24)
+    font = pygame.font.Font(None, 23)
     text = font.render("Accuracy: "+str(accuracy)+"%", True, (255,0,0))
     textRect = text.get_rect()
     textRect.centerx = screen.get_rect().centerx
@@ -213,7 +213,7 @@ if exitcode==0:
     screen.blit(text, textRect)
 else:
     pygame.font.init()
-    font = pygame.font.Font(None, 24)
+    font = pygame.font.Font(None, 23)
     text = font.render("Accuracy: "+str(accuracy)+"%", True, (0,255,0))
     textRect = text.get_rect()
     textRect.centerx = screen.get_rect().centerx
