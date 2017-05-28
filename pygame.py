@@ -32,7 +32,7 @@ import random
 
 # 2 - Initialize the game
 pygame.init()
-width, height = 640, 480
+width, height = 638, 478
 screen=pygame.display.set_mode((width, height))
 keys = [False, False, False, False]
 playerpos=[100,100]
