@@ -1,2 +1,2 @@
 # Pygame-play
-Make game with pygame
+A game made using the Python library pygame
